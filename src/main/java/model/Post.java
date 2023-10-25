@@ -1,11 +1,10 @@
 package model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
-import org.springframework.data.annotation.Id;
-
-import javax.validation.constraints.NotBlank;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import java.time.LocalDate;
+import javax.persistence.Lob;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "TB_POST")
