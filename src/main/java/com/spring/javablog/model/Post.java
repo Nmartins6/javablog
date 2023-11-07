@@ -1,4 +1,4 @@
-package model;
+package com.spring.javablog.model;
 
 import jakarta.persistence.*;
 import com.fasterxml.jackson.annotation.JsonFormat;
