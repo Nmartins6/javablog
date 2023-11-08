@@ -2,9 +2,12 @@ package com.spring.javablog.model;
 
 import jakarta.persistence.*;
 import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.LocalDate;
 import javax.persistence.Lob;
-import javax.validation.constraints.NotBlank;
+
+import jakarta.validation.constraints.NotBlank;
+
 
 @Entity
 @Table(name = "TB_POST")
